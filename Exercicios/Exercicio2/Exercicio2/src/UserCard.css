@@ -1,0 +1,32 @@
+/* src/UserCard.css */
+
+.user-card-container {
+    max-width: 1200px; /* Largura máxima do contêiner */
+    margin: 0 auto; /* Centralizar o contêiner na página */
+  }
+  
+  .user-card {
+    width: calc(20% - 20px); /* Largura de cada componente com margem de 10px em cada lado */
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #524a4a;
+  }
+  
+  .user-field {
+    margin-bottom: 5px;
+    color: #fff; /* Cor do texto */
+  }
+  
+  .field-label {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .premium-text {
+    color: #ff9800;
+    font-weight: bold;
+  }
+  
