@@ -8,20 +8,16 @@ const Formulario = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-
-    // Obtenha os valores dos campos
     const nomeValor = nome;
     const emailValor = email;
     const senhaValor = senha;
     const termosValor = termosRef.current.checked;
 
-    // Faça algo com os valores capturados
     console.log('Nome:', nomeValor);
     console.log('E-mail:', emailValor);
     console.log('Senha:', senhaValor);
     console.log('Aceitar termos:', termosValor);
 
-    // Limpe os campos do formulário
     setNome('');
     setEmail('');
     setSenha('');
